@@ -1,0 +1,1332 @@
+[
+  {
+    "employee": [
+      {
+        "id": "e3db8e93-ec2b-4f68-9ef0-8e4c79a2e832",
+        "first_name": "John",
+        "last_name": "Doe",
+        "vacation_status": "Available",
+        "created_at": "2023-08-16T19:31:14.898Z",
+        "updated_at": "2023-08-17T04:47:16.417Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5c1b90ab-dff4-45cb-8056-ac68cdeaea48",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "vacation_status": "Unavailable",
+        "created_at": "2023-08-16T23:50:52.651Z",
+        "updated_at": "2023-08-17T05:33:48.282Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ec07d84-708b-4aa5-bb4a-7ab00b4c72cb",
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "vacation_status": "On Leave",
+        "created_at": "2023-08-17T03:00:28.574Z",
+        "updated_at": "2023-08-16T14:56:59.076Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e86efe08-a68d-4951-826d-eda65ac2877e",
+        "first_name": "Sarah",
+        "last_name": "Jones",
+        "vacation_status": "Pending",
+        "created_at": "2023-08-17T07:25:44.914Z",
+        "updated_at": "2023-08-17T01:00:14.407Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9fbf277c-7a26-4b29-9a06-c2ed2d81a63b",
+        "first_name": "Robert",
+        "last_name": "Wilson",
+        "vacation_status": "Approved",
+        "created_at": "2023-08-17T08:12:22.135Z",
+        "updated_at": "2023-08-16T20:42:58.324Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "43067ba3-68d0-44b0-9ada-67a608652798",
+        "salary": 14961,
+        "created_at": "2023-08-16T11:47:43.922Z",
+        "updated_at": "2023-08-16T22:56:03.458Z",
+        "employee_id": "3ec07d84-708b-4aa5-bb4a-7ab00b4c72cb"
+      },
+      {
+        "id": "5c2bf26b-3afc-4629-9487-b7238bdc2627",
+        "salary": 81656,
+        "created_at": "2023-08-16T21:23:33.297Z",
+        "updated_at": "2023-08-16T23:07:16.019Z",
+        "employee_id": "5c1b90ab-dff4-45cb-8056-ac68cdeaea48"
+      },
+      {
+        "id": "5bfbfb8b-ff5d-4c2a-8f6e-48ef42fcafe6",
+        "salary": 68134,
+        "created_at": "2023-08-16T13:40:33.045Z",
+        "updated_at": "2023-08-16T22:59:14.029Z",
+        "employee_id": "9fbf277c-7a26-4b29-9a06-c2ed2d81a63b"
+      },
+      {
+        "id": "8ada3325-9b37-490d-a2f5-0b11ba59f32d",
+        "salary": 56570,
+        "created_at": "2023-08-17T07:09:37.663Z",
+        "updated_at": "2023-08-16T10:30:05.771Z",
+        "employee_id": "e3db8e93-ec2b-4f68-9ef0-8e4c79a2e832"
+      },
+      {
+        "id": "d34d7d7d-f6fe-42f1-85f8-490c3908a64c",
+        "salary": 70426,
+        "created_at": "2023-08-16T12:40:54.471Z",
+        "updated_at": "2023-08-16T13:30:19.997Z",
+        "employee_id": "e3db8e93-ec2b-4f68-9ef0-8e4c79a2e832"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f5f5ed20-5a6d-4754-b236-7b6ee618af6c",
+        "email": "Kaycee40@gmail.com",
+        "firstName": "Gavin",
+        "lastName": "Rippin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/52.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6dedcc1d-4e39-40cd-8f42-183a9dcf7083",
+        "email": "Bennie.Sanford@gmail.com",
+        "firstName": "Haskell",
+        "lastName": "Mante",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37249702",
+        "tenantId": null
+      },
+      {
+        "reference": "075e1ed1-1531-4e66-a59c-6838ff9315fa",
+        "email": "Sebastian_Medhurst@gmail.com",
+        "firstName": "Janis",
+        "lastName": "Konopelski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89664115",
+        "tenantId": null
+      },
+      {
+        "reference": "f2305da6-105a-4fd8-af0f-41cd7fbfb4d7",
+        "email": "Brendan_Armstrong@gmail.com",
+        "firstName": "Alta",
+        "lastName": "Toy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/985.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "16d02b9f-c9d0-46a7-ad63-a19c7f100663",
+        "email": "Christelle4@hotmail.com",
+        "firstName": "Winfield",
+        "lastName": "Hoppe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49081061",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "b455b122-e7b7-4c67-b58c-e4c60eba209f",
+        "first_name": "Alex",
+        "last_name": "Johnson",
+        "vacation_status": "Available",
+        "created_at": "2023-08-17T06:09:02.106Z",
+        "updated_at": "2023-08-17T05:57:56.232Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4fc9829f-2961-4aed-bb83-4b046a739bc3",
+        "first_name": "Emily",
+        "last_name": "Anderson",
+        "vacation_status": "Not Available",
+        "created_at": "2023-08-16T09:51:29.587Z",
+        "updated_at": "2023-08-17T06:57:44.790Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ceae6622-ffcf-46c3-9a02-12a2d60a356e",
+        "first_name": "Daniel",
+        "last_name": "Thompson",
+        "vacation_status": "On Leave",
+        "created_at": "2023-08-17T05:27:05.099Z",
+        "updated_at": "2023-08-16T16:03:45.261Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9a16a224-b308-4f80-837e-e59e3bc8e4b3",
+        "first_name": "Olivia",
+        "last_name": "Harris",
+        "vacation_status": "Pending",
+        "created_at": "2023-08-16T19:29:51.683Z",
+        "updated_at": "2023-08-17T07:27:45.317Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5b30ac26-a96a-45c7-826e-ca6b3bdc3adb",
+        "first_name": "Jacob",
+        "last_name": "Walker",
+        "vacation_status": "Approved",
+        "created_at": "2023-08-16T16:05:01.401Z",
+        "updated_at": "2023-08-17T07:26:21.391Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "3b80d791-43d2-4e25-8473-4bfec878c057",
+        "salary": 39715,
+        "created_at": "2023-08-17T06:00:54.498Z",
+        "updated_at": "2023-08-17T04:36:17.735Z",
+        "employee_id": "4fc9829f-2961-4aed-bb83-4b046a739bc3"
+      },
+      {
+        "id": "d698f673-7834-4fea-aaa7-4c643f94582e",
+        "salary": 63269,
+        "created_at": "2023-08-16T18:35:29.416Z",
+        "updated_at": "2023-08-16T10:25:37.339Z",
+        "employee_id": "4fc9829f-2961-4aed-bb83-4b046a739bc3"
+      },
+      {
+        "id": "21a3f4b1-ef5e-40c5-a684-9761d34aa0de",
+        "salary": 34000,
+        "created_at": "2023-08-16T20:38:02.970Z",
+        "updated_at": "2023-08-17T06:51:19.238Z",
+        "employee_id": "9a16a224-b308-4f80-837e-e59e3bc8e4b3"
+      },
+      {
+        "id": "bea48745-93f7-46cd-9d5c-d527f00d1345",
+        "salary": 89341,
+        "created_at": "2023-08-16T09:41:19.822Z",
+        "updated_at": "2023-08-17T09:06:40.678Z",
+        "employee_id": "b455b122-e7b7-4c67-b58c-e4c60eba209f"
+      },
+      {
+        "id": "f0d06b0e-5e54-43b7-9c51-8de1132ca961",
+        "salary": 68694,
+        "created_at": "2023-08-16T15:01:42.949Z",
+        "updated_at": "2023-08-17T03:00:00.618Z",
+        "employee_id": "ceae6622-ffcf-46c3-9a02-12a2d60a356e"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9bdcb57d-bbb6-4949-b091-403a878366b1",
+        "email": "Anya.Douglas@yahoo.com",
+        "firstName": "Heidi",
+        "lastName": "Hickle",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82270074",
+        "tenantId": null
+      },
+      {
+        "reference": "85caad96-10a1-406f-960b-811208f32cc5",
+        "email": "Jannie_Gottlieb@yahoo.com",
+        "firstName": "Margot",
+        "lastName": "Grant",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/514.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f868a891-2a60-4ce9-b59d-11b82778d031",
+        "email": "Sigurd_Reinger@yahoo.com",
+        "firstName": "Athena",
+        "lastName": "Kohler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/342.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0c5cf3db-a827-4afe-855f-615157a0e81b",
+        "email": "Edd_Franey@gmail.com",
+        "firstName": "Jillian",
+        "lastName": "Cremin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1148.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3ca0f431-4908-4893-bf37-5f129e380dd6",
+        "email": "Freddy46@yahoo.com",
+        "firstName": "Destiney",
+        "lastName": "Rutherford",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/962.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "5df63ca6-02b8-4673-90c5-7d7b77496d87",
+        "first_name": "David",
+        "last_name": "Wilson",
+        "vacation_status": "Available",
+        "created_at": "2023-08-16T10:33:47.551Z",
+        "updated_at": "2023-08-16T20:26:31.537Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f650e83a-a7ec-4f8f-917b-450ac33452fd",
+        "first_name": "Emily",
+        "last_name": "Anderson",
+        "vacation_status": "Not Available",
+        "created_at": "2023-08-17T07:02:28.935Z",
+        "updated_at": "2023-08-17T04:49:50.381Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d520eed6-f2fc-4741-9d7c-e26d146c411b",
+        "first_name": "Daniel",
+        "last_name": "Thompson",
+        "vacation_status": "On Leave",
+        "created_at": "2023-08-17T06:36:26.817Z",
+        "updated_at": "2023-08-16T14:22:51.234Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4a6c2647-4a26-46fe-81bd-2c3d130781f8",
+        "first_name": "Olivia",
+        "last_name": "Harris",
+        "vacation_status": "Pending Approval",
+        "created_at": "2023-08-17T03:50:21.015Z",
+        "updated_at": "2023-08-16T20:54:35.524Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f8bff202-c53d-4cd4-a524-a0752cf6c4b2",
+        "first_name": "Matthew",
+        "last_name": "Clark",
+        "vacation_status": "Approved",
+        "created_at": "2023-08-17T07:31:47.620Z",
+        "updated_at": "2023-08-17T07:07:09.498Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "ce260114-8788-448d-94d5-413f5f0886bd",
+        "salary": 85574,
+        "created_at": "2023-08-16T18:28:32.524Z",
+        "updated_at": "2023-08-16T19:12:45.537Z",
+        "employee_id": "f650e83a-a7ec-4f8f-917b-450ac33452fd"
+      },
+      {
+        "id": "68e8cd32-f784-46e1-888e-17bcee7743d0",
+        "salary": 80659,
+        "created_at": "2023-08-17T00:21:03.804Z",
+        "updated_at": "2023-08-16T14:26:58.017Z",
+        "employee_id": "4a6c2647-4a26-46fe-81bd-2c3d130781f8"
+      },
+      {
+        "id": "c027adf1-49b1-4793-adf2-f639954c4a05",
+        "salary": 70826,
+        "created_at": "2023-08-16T14:16:58.575Z",
+        "updated_at": "2023-08-16T21:09:50.713Z",
+        "employee_id": "f650e83a-a7ec-4f8f-917b-450ac33452fd"
+      },
+      {
+        "id": "ec6057a7-1be8-4253-8411-df72f7bfbb93",
+        "salary": 35740,
+        "created_at": "2023-08-16T19:28:31.833Z",
+        "updated_at": "2023-08-16T16:52:36.447Z",
+        "employee_id": "d520eed6-f2fc-4741-9d7c-e26d146c411b"
+      },
+      {
+        "id": "c67a45af-8c3f-4eb2-929d-c066dc8f3b6c",
+        "salary": 91926,
+        "created_at": "2023-08-17T01:39:51.046Z",
+        "updated_at": "2023-08-17T04:54:34.884Z",
+        "employee_id": "5df63ca6-02b8-4673-90c5-7d7b77496d87"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c6190b36-4abd-4e33-b2b0-8c7e1bebeb86",
+        "email": "Rosalia_Johns7@gmail.com",
+        "firstName": "Johathan",
+        "lastName": "Mraz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50026299",
+        "tenantId": null
+      },
+      {
+        "reference": "5e2ae37e-e520-4193-b5e1-aacf553c3d3e",
+        "email": "Bonnie_Ernser-Kertzmann@yahoo.com",
+        "firstName": "Aida",
+        "lastName": "Brakus",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/408.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1b14762b-86b5-49fd-9def-622792487935",
+        "email": "Kaya_Lebsack74@gmail.com",
+        "firstName": "Darlene",
+        "lastName": "Altenwerth",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90688327",
+        "tenantId": null
+      },
+      {
+        "reference": "1371b8bf-e6c2-4e51-be08-451a87966663",
+        "email": "Colten96@yahoo.com",
+        "firstName": "Samanta",
+        "lastName": "Quigley",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39118777",
+        "tenantId": null
+      },
+      {
+        "reference": "cd7128f7-fd36-443c-9b2f-5eeaa5d094ba",
+        "email": "Roselyn.Cronin@yahoo.com",
+        "firstName": "Anika",
+        "lastName": "Leannon",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/563.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "c0dd9b06-0ab9-42ac-ab5c-f6ae89d0c86e",
+        "first_name": "David",
+        "last_name": "Jones",
+        "vacation_status": "Available",
+        "created_at": "2023-08-17T03:44:58.371Z",
+        "updated_at": "2023-08-16T17:45:15.082Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5d746be4-8601-4f52-87fc-884b5c4a6ac1",
+        "first_name": "Emily",
+        "last_name": "Anderson",
+        "vacation_status": "Unavailable",
+        "created_at": "2023-08-16T20:09:14.122Z",
+        "updated_at": "2023-08-16T16:36:51.939Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f7f1607-e0c0-4563-a58f-a240e6ce476f",
+        "first_name": "Daniel",
+        "last_name": "Smith",
+        "vacation_status": "Pending",
+        "created_at": "2023-08-17T03:34:38.967Z",
+        "updated_at": "2023-08-16T11:12:05.158Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3a66af4b-dc25-44dc-abe7-b4e12f0e917a",
+        "first_name": "Olivia",
+        "last_name": "Taylor",
+        "vacation_status": "Approved",
+        "created_at": "2023-08-16T17:19:50.936Z",
+        "updated_at": "2023-08-16T21:38:55.883Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cd8faff2-e194-4052-a257-fde6e90bef7f",
+        "first_name": "Matthew",
+        "last_name": "Johnson",
+        "vacation_status": "Cancelled",
+        "created_at": "2023-08-16T11:38:45.601Z",
+        "updated_at": "2023-08-16T13:16:06.268Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "19c5fa21-7579-4e1f-b8ee-21df6a4cc39b",
+        "salary": 32656,
+        "created_at": "2023-08-16T17:20:12.347Z",
+        "updated_at": "2023-08-16T15:30:31.674Z",
+        "employee_id": "5d746be4-8601-4f52-87fc-884b5c4a6ac1"
+      },
+      {
+        "id": "cd93e4e0-5ed3-481e-a7b6-5b1c482d87ac",
+        "salary": 52267,
+        "created_at": "2023-08-17T06:13:54.981Z",
+        "updated_at": "2023-08-17T06:46:55.261Z",
+        "employee_id": "5d746be4-8601-4f52-87fc-884b5c4a6ac1"
+      },
+      {
+        "id": "865269cf-99e7-4f6d-9219-76570ae64317",
+        "salary": 72662,
+        "created_at": "2023-08-16T19:55:35.381Z",
+        "updated_at": "2023-08-16T10:45:57.006Z",
+        "employee_id": "5f7f1607-e0c0-4563-a58f-a240e6ce476f"
+      },
+      {
+        "id": "31a2dbdc-51ad-456c-97cf-ff755a25d33c",
+        "salary": 12896,
+        "created_at": "2023-08-16T17:31:04.194Z",
+        "updated_at": "2023-08-16T18:13:44.916Z",
+        "employee_id": "cd8faff2-e194-4052-a257-fde6e90bef7f"
+      },
+      {
+        "id": "b8cc8426-e5fa-4bd2-9750-6253b19ebe76",
+        "salary": 20157,
+        "created_at": "2023-08-17T07:32:24.227Z",
+        "updated_at": "2023-08-16T17:27:38.099Z",
+        "employee_id": "cd8faff2-e194-4052-a257-fde6e90bef7f"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "85a6be94-76c9-4e82-aee1-5a2a9c3174e0",
+        "email": "Krystina1@yahoo.com",
+        "firstName": "Kira",
+        "lastName": "Kassulke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/401.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c2357e97-7b05-41c5-9105-8608c2e94463",
+        "email": "Earl95@yahoo.com",
+        "firstName": "Wilfrid",
+        "lastName": "Konopelski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51077715",
+        "tenantId": null
+      },
+      {
+        "reference": "d3856336-3a31-4731-92f8-7da4a90a219d",
+        "email": "Clare.Denesik@gmail.com",
+        "firstName": "Edmund",
+        "lastName": "Fadel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1129.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "22544875-6247-4969-93d8-0ce19727c823",
+        "email": "Madison.Wolf@hotmail.com",
+        "firstName": "Felicity",
+        "lastName": "Nader",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/578.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ce7554f4-2a97-4d19-bbe8-a2ecd051008d",
+        "email": "Clifford26@yahoo.com",
+        "firstName": "Ana",
+        "lastName": "Becker",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74084660",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "187f911a-af01-4177-8409-b66c7d5c0308",
+        "first_name": "Alex",
+        "last_name": "Johnson",
+        "vacation_status": "Available",
+        "created_at": "2023-08-16T15:22:32.310Z",
+        "updated_at": "2023-08-17T02:46:31.296Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b8f85377-4354-4e75-9d71-3f5cd4572671",
+        "first_name": "Emily",
+        "last_name": "Anderson",
+        "vacation_status": "Unavailable",
+        "created_at": "2023-08-17T03:48:28.740Z",
+        "updated_at": "2023-08-16T11:46:23.275Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "33745547-499a-46b2-9742-6a31cb3a1d79",
+        "first_name": "Daniel",
+        "last_name": "Thomas",
+        "vacation_status": "Pending",
+        "created_at": "2023-08-17T01:33:19.105Z",
+        "updated_at": "2023-08-17T07:33:09.533Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c9967b0e-7d08-45ec-b65e-8be6af64ede7",
+        "first_name": "Olivia",
+        "last_name": "Taylor",
+        "vacation_status": "Approved",
+        "created_at": "2023-08-17T07:10:22.873Z",
+        "updated_at": "2023-08-17T07:08:59.628Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "38b68b7f-a30e-435d-bba6-b1cf9cb084f1",
+        "first_name": "James",
+        "last_name": "Clark",
+        "vacation_status": "Cancelled",
+        "created_at": "2023-08-17T00:17:01.486Z",
+        "updated_at": "2023-08-16T10:22:26.815Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "ca86e0fe-af04-4c4a-9f2a-f2c563189412",
+        "salary": 32559,
+        "created_at": "2023-08-17T00:14:39.306Z",
+        "updated_at": "2023-08-16T15:11:15.361Z",
+        "employee_id": "c9967b0e-7d08-45ec-b65e-8be6af64ede7"
+      },
+      {
+        "id": "a276d897-776e-4a89-ac41-813869539e1a",
+        "salary": 5657,
+        "created_at": "2023-08-17T00:24:05.119Z",
+        "updated_at": "2023-08-16T19:49:52.386Z",
+        "employee_id": "33745547-499a-46b2-9742-6a31cb3a1d79"
+      },
+      {
+        "id": "03bfef50-c4d3-4809-95a9-4b932f9197d9",
+        "salary": 23199,
+        "created_at": "2023-08-17T02:25:30.623Z",
+        "updated_at": "2023-08-17T05:47:00.001Z",
+        "employee_id": "187f911a-af01-4177-8409-b66c7d5c0308"
+      },
+      {
+        "id": "01405b00-491c-4058-97c7-e547b8141be1",
+        "salary": 69760,
+        "created_at": "2023-08-16T14:00:06.679Z",
+        "updated_at": "2023-08-16T10:23:43.408Z",
+        "employee_id": "b8f85377-4354-4e75-9d71-3f5cd4572671"
+      },
+      {
+        "id": "8176c4ee-ada3-48b2-b63e-4c7ba8f090fb",
+        "salary": 98518,
+        "created_at": "2023-08-17T07:26:27.546Z",
+        "updated_at": "2023-08-16T20:18:30.066Z",
+        "employee_id": "c9967b0e-7d08-45ec-b65e-8be6af64ede7"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5b20e3f1-8204-4612-a801-c953d6ab9940",
+        "email": "Serena_Monahan31@yahoo.com",
+        "firstName": "Carleton",
+        "lastName": "Miller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13735385",
+        "tenantId": null
+      },
+      {
+        "reference": "7e2dc1ba-215a-4798-9057-0a5169b0a26f",
+        "email": "Haylee.Adams15@yahoo.com",
+        "firstName": "Charlie",
+        "lastName": "Schamberger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/242.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b287a168-aaca-4c4d-b903-97ead1f14ab6",
+        "email": "Donato.Mills37@yahoo.com",
+        "firstName": "Rosalinda",
+        "lastName": "Ortiz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81660726",
+        "tenantId": null
+      },
+      {
+        "reference": "9e61c0db-c582-4f63-982a-a48a929ab173",
+        "email": "Caterina1@hotmail.com",
+        "firstName": "Maddison",
+        "lastName": "Graham",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88454673",
+        "tenantId": null
+      },
+      {
+        "reference": "9372a56b-9a2b-4a4d-9007-2d7c49b8b444",
+        "email": "Brionna4@yahoo.com",
+        "firstName": "Neva",
+        "lastName": "Rippin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89882121",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "043dc539-ba76-46da-959b-3aad6aac499d",
+        "first_name": "Alex",
+        "last_name": "Miller",
+        "vacation_status": "Available",
+        "created_at": "2023-08-16T09:44:10.926Z",
+        "updated_at": "2023-08-17T07:16:27.661Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d2219bec-789e-4edd-9a1d-05ce5f1d5dd5",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "vacation_status": "On Leave",
+        "created_at": "2023-08-16T15:43:18.465Z",
+        "updated_at": "2023-08-16T13:31:16.210Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4dd13680-2796-4f98-a2ab-263aff879666",
+        "first_name": "Daniel",
+        "last_name": "Davis",
+        "vacation_status": "Not Available",
+        "created_at": "2023-08-17T07:41:22.579Z",
+        "updated_at": "2023-08-16T13:18:28.242Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "08611228-c979-4b62-bf17-b5eec69d9157",
+        "first_name": "Olivia",
+        "last_name": "Clark",
+        "vacation_status": "On Vacation",
+        "created_at": "2023-08-17T04:45:49.071Z",
+        "updated_at": "2023-08-17T08:28:34.610Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cdf602a1-cbc3-4eb8-b640-fa0621bfa628",
+        "first_name": "Jacob",
+        "last_name": "Taylor",
+        "vacation_status": "Out of Office",
+        "created_at": "2023-08-16T21:51:31.836Z",
+        "updated_at": "2023-08-16T19:55:50.841Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "ac9c3493-e844-4394-8311-2cd832d3f4d2",
+        "salary": 51038,
+        "created_at": "2023-08-16T10:31:02.945Z",
+        "updated_at": "2023-08-17T04:12:18.991Z",
+        "employee_id": "08611228-c979-4b62-bf17-b5eec69d9157"
+      },
+      {
+        "id": "0355f2f2-60f8-4319-a8d8-7c35675ef281",
+        "salary": 57193,
+        "created_at": "2023-08-16T13:06:32.135Z",
+        "updated_at": "2023-08-17T02:06:33.420Z",
+        "employee_id": "4dd13680-2796-4f98-a2ab-263aff879666"
+      },
+      {
+        "id": "7e720b65-e437-424a-ad69-9325d93e23ed",
+        "salary": 76318,
+        "created_at": "2023-08-16T11:46:04.772Z",
+        "updated_at": "2023-08-16T14:13:06.045Z",
+        "employee_id": "043dc539-ba76-46da-959b-3aad6aac499d"
+      },
+      {
+        "id": "16c20ff8-2fdf-4264-990f-5eeacc6afb2f",
+        "salary": 31540,
+        "created_at": "2023-08-17T06:23:21.603Z",
+        "updated_at": "2023-08-16T16:28:10.299Z",
+        "employee_id": "4dd13680-2796-4f98-a2ab-263aff879666"
+      },
+      {
+        "id": "574dca9c-3e58-4092-9da9-e811175b0007",
+        "salary": 52410,
+        "created_at": "2023-08-16T18:43:10.773Z",
+        "updated_at": "2023-08-16T11:16:41.416Z",
+        "employee_id": "4dd13680-2796-4f98-a2ab-263aff879666"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "73269a99-46ab-44af-9e91-d01a91b5de51",
+        "email": "Carol_Cremin38@gmail.com",
+        "firstName": "Corene",
+        "lastName": "Leannon",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/98.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ad9a3967-6bba-4df3-889d-1863982d4f8e",
+        "email": "Ernesto_Steuber@gmail.com",
+        "firstName": "Era",
+        "lastName": "Torphy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1102.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "de5bfa4b-c278-4adb-a7b4-64debebda82d",
+        "email": "Margarete74@yahoo.com",
+        "firstName": "Herminio",
+        "lastName": "Grimes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/192.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f9a65e21-9026-4670-b225-c954ccd837c0",
+        "email": "Marty.Dare@gmail.com",
+        "firstName": "Treva",
+        "lastName": "Lowe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11359709",
+        "tenantId": null
+      },
+      {
+        "reference": "d31ff8a2-caeb-4569-8320-7b838236a468",
+        "email": "Eulalia92@yahoo.com",
+        "firstName": "Clifford",
+        "lastName": "Wilkinson-Schinner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/279.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "4b6ad16f-b152-48a9-9b67-d8415c5b0bb3",
+        "first_name": "John",
+        "last_name": "Doe",
+        "vacation_status": "Available",
+        "created_at": "2023-08-16T21:22:54.631Z",
+        "updated_at": "2023-08-16T19:59:28.438Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "869a9431-7951-4d4a-a463-7927063731a2",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "vacation_status": "Unavailable",
+        "created_at": "2023-08-16T15:45:07.856Z",
+        "updated_at": "2023-08-16T10:49:15.929Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "395a888d-dfc8-42de-a1d5-41c8de1927d9",
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "vacation_status": "On Leave",
+        "created_at": "2023-08-16T13:11:19.568Z",
+        "updated_at": "2023-08-17T08:43:24.365Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2116b8c0-9c63-47d3-9855-1f20ef12149f",
+        "first_name": "Sarah",
+        "last_name": "Jones",
+        "vacation_status": "Pending",
+        "created_at": "2023-08-16T13:19:51.807Z",
+        "updated_at": "2023-08-16T19:29:50.227Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7e6b51cd-259a-404a-b46e-84222abfd00b",
+        "first_name": "Robert",
+        "last_name": "Wilson",
+        "vacation_status": "Approved",
+        "created_at": "2023-08-17T01:18:43.638Z",
+        "updated_at": "2023-08-16T17:20:49.200Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "a094c996-765b-462e-9114-b6e443ddf1e7",
+        "salary": 15154,
+        "created_at": "2023-08-16T12:55:33.957Z",
+        "updated_at": "2023-08-17T08:51:14.806Z",
+        "employee_id": "2116b8c0-9c63-47d3-9855-1f20ef12149f"
+      },
+      {
+        "id": "bed2242d-70f8-4242-894b-34bfb9106978",
+        "salary": 4811,
+        "created_at": "2023-08-16T13:13:54.515Z",
+        "updated_at": "2023-08-17T02:40:04.750Z",
+        "employee_id": "395a888d-dfc8-42de-a1d5-41c8de1927d9"
+      },
+      {
+        "id": "2f589c2e-09a5-42d9-ab5a-ae338c68325c",
+        "salary": 61592,
+        "created_at": "2023-08-16T23:36:07.443Z",
+        "updated_at": "2023-08-17T05:12:53.598Z",
+        "employee_id": "2116b8c0-9c63-47d3-9855-1f20ef12149f"
+      },
+      {
+        "id": "23d22cce-d3da-4f4e-9395-68d187a8d1e0",
+        "salary": 98033,
+        "created_at": "2023-08-16T15:36:40.184Z",
+        "updated_at": "2023-08-16T20:49:30.656Z",
+        "employee_id": "869a9431-7951-4d4a-a463-7927063731a2"
+      },
+      {
+        "id": "0071b3da-23d0-47af-8040-ac570ea923af",
+        "salary": 57498,
+        "created_at": "2023-08-16T20:28:38.396Z",
+        "updated_at": "2023-08-16T17:55:58.520Z",
+        "employee_id": "4b6ad16f-b152-48a9-9b67-d8415c5b0bb3"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e85302f4-e1a6-4003-84c2-6f3130e44f30",
+        "email": "Orpha_Barrows68@yahoo.com",
+        "firstName": "Doug",
+        "lastName": "Crist",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/734.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b7cc48f4-5573-4fb9-85f3-fc2594be6c84",
+        "email": "Flavio.Ziemann43@yahoo.com",
+        "firstName": "Priscilla",
+        "lastName": "Windler-Reichert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/999.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "788025ac-e772-4bb9-84b1-c8775ec6ff45",
+        "email": "Daphnee_Roberts55@hotmail.com",
+        "firstName": "Nona",
+        "lastName": "Sawayn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64568605",
+        "tenantId": null
+      },
+      {
+        "reference": "d6a6a485-ddb7-4274-8414-2979e95bb56e",
+        "email": "Blair_Larson@gmail.com",
+        "firstName": "Audrey",
+        "lastName": "Frami",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/342.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "afd09c35-4ae1-4843-b07e-dfb59aa737d4",
+        "email": "Israel_Rath30@yahoo.com",
+        "firstName": "Tierra",
+        "lastName": "Padberg",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/295.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "0f3d3eee-2189-4b95-acda-f25dbfb275d9",
+        "first_name": "John",
+        "last_name": "Doe",
+        "vacation_status": "Available",
+        "created_at": "2023-08-16T23:47:24.952Z",
+        "updated_at": "2023-08-17T05:08:49.670Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f25e9d6d-f591-45be-a4a2-44ab8eb564dc",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "vacation_status": "Not Available",
+        "created_at": "2023-08-16T11:41:43.690Z",
+        "updated_at": "2023-08-16T12:28:42.253Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "20659479-05b3-4e93-9676-5195ef989c0c",
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "vacation_status": "On Leave",
+        "created_at": "2023-08-17T03:46:26.901Z",
+        "updated_at": "2023-08-16T13:44:37.036Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7ccac35c-ca4f-4e19-b5ce-566e4803624f",
+        "first_name": "Sarah",
+        "last_name": "Jones",
+        "vacation_status": "Pending",
+        "created_at": "2023-08-17T02:58:40.203Z",
+        "updated_at": "2023-08-17T05:23:47.271Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "78e0fd54-6e0c-4f2b-8997-1517a4088154",
+        "first_name": "Robert",
+        "last_name": "Wilson",
+        "vacation_status": "Approved",
+        "created_at": "2023-08-16T18:20:10.745Z",
+        "updated_at": "2023-08-16T11:14:02.775Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "e8e8f18d-7633-40b9-8f44-6fed69a67c56",
+        "salary": 22885,
+        "created_at": "2023-08-17T08:30:12.056Z",
+        "updated_at": "2023-08-17T04:38:24.652Z",
+        "employee_id": "0f3d3eee-2189-4b95-acda-f25dbfb275d9"
+      },
+      {
+        "id": "4d994248-045c-456c-bcf5-17ebd3bfe94e",
+        "salary": 38145,
+        "created_at": "2023-08-17T00:07:38.837Z",
+        "updated_at": "2023-08-17T05:32:27.923Z",
+        "employee_id": "f25e9d6d-f591-45be-a4a2-44ab8eb564dc"
+      },
+      {
+        "id": "1e7e5ffb-7dac-44c0-9e95-fb736a854213",
+        "salary": 78858,
+        "created_at": "2023-08-16T11:35:41.150Z",
+        "updated_at": "2023-08-16T15:24:28.377Z",
+        "employee_id": "7ccac35c-ca4f-4e19-b5ce-566e4803624f"
+      },
+      {
+        "id": "40c13fea-baaa-42e8-b956-f751917d64d4",
+        "salary": 84855,
+        "created_at": "2023-08-16T17:16:46.533Z",
+        "updated_at": "2023-08-17T09:05:19.170Z",
+        "employee_id": "0f3d3eee-2189-4b95-acda-f25dbfb275d9"
+      },
+      {
+        "id": "a455ad9d-2670-46d9-be09-80837ec11ce6",
+        "salary": 20693,
+        "created_at": "2023-08-16T16:09:39.958Z",
+        "updated_at": "2023-08-16T22:24:28.410Z",
+        "employee_id": "7ccac35c-ca4f-4e19-b5ce-566e4803624f"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e4cbc0a2-2656-4552-9bc0-7b643673ba22",
+        "email": "Jordi.Adams90@gmail.com",
+        "firstName": "Ronaldo",
+        "lastName": "Shields",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/867.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2bd4ed74-7f84-485e-babc-a5a030b99482",
+        "email": "Isai_Kulas@gmail.com",
+        "firstName": "Baby",
+        "lastName": "Reichel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/199.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "36733f08-c714-4aa6-bb58-aada683b58bc",
+        "email": "Macy.McClure@hotmail.com",
+        "firstName": "Leone",
+        "lastName": "Fisher",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/293.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4bb754ea-8895-480d-9351-754329810a04",
+        "email": "Larissa_Satterfield@hotmail.com",
+        "firstName": "Dolly",
+        "lastName": "Kreiger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/827.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3bddda23-2a35-4a98-92fb-6d87488da038",
+        "email": "Noel22@yahoo.com",
+        "firstName": "Bennett",
+        "lastName": "Bartell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/915.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "646263d3-6f65-4200-ae03-338725144a30",
+        "first_name": "Emily",
+        "last_name": "Anderson",
+        "vacation_status": "On leave",
+        "created_at": "2023-08-16T16:59:36.427Z",
+        "updated_at": "2023-08-17T08:23:27.436Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "af553563-de79-4c36-ae81-f70922612c85",
+        "first_name": "Daniel",
+        "last_name": "Clark",
+        "vacation_status": "Available",
+        "created_at": "2023-08-17T08:56:24.483Z",
+        "updated_at": "2023-08-17T08:59:56.652Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e4e16c86-70f5-4ae7-8013-b8aff2956cfd",
+        "first_name": "Olivia",
+        "last_name": "Garcia",
+        "vacation_status": "On vacation",
+        "created_at": "2023-08-16T09:43:56.416Z",
+        "updated_at": "2023-08-16T20:40:46.927Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "81bef070-c0e5-4e31-b24d-41b2075db565",
+        "first_name": "Jacob",
+        "last_name": "Lee",
+        "vacation_status": "Sick leave",
+        "created_at": "2023-08-16T12:09:33.849Z",
+        "updated_at": "2023-08-16T20:12:06.958Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4af31eca-7c1d-402c-9b62-08e66fb2db08",
+        "first_name": "Sophia",
+        "last_name": "Miller",
+        "vacation_status": "Working remotely",
+        "created_at": "2023-08-16T10:37:41.776Z",
+        "updated_at": "2023-08-16T23:38:54.439Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "6ce2a58c-cb04-4b8c-94d2-d8a23ff09261",
+        "salary": 21469,
+        "created_at": "2023-08-16T23:03:16.756Z",
+        "updated_at": "2023-08-16T18:40:55.376Z",
+        "employee_id": "af553563-de79-4c36-ae81-f70922612c85"
+      },
+      {
+        "id": "98ec4b0b-cfbe-4748-8b60-bce068733680",
+        "salary": 67533,
+        "created_at": "2023-08-17T05:01:21.044Z",
+        "updated_at": "2023-08-17T02:36:23.697Z",
+        "employee_id": "af553563-de79-4c36-ae81-f70922612c85"
+      },
+      {
+        "id": "fb7534e8-8f17-4e67-8e8b-3184b7480819",
+        "salary": 81823,
+        "created_at": "2023-08-16T19:50:40.088Z",
+        "updated_at": "2023-08-17T00:49:09.582Z",
+        "employee_id": "4af31eca-7c1d-402c-9b62-08e66fb2db08"
+      },
+      {
+        "id": "39f2509e-baff-440f-8507-1ed28d24aab4",
+        "salary": 94446,
+        "created_at": "2023-08-17T02:49:07.130Z",
+        "updated_at": "2023-08-16T17:16:56.805Z",
+        "employee_id": "af553563-de79-4c36-ae81-f70922612c85"
+      },
+      {
+        "id": "ec51215b-baf1-4eb2-b34d-d04d6109a3d2",
+        "salary": 82615,
+        "created_at": "2023-08-17T02:13:43.223Z",
+        "updated_at": "2023-08-17T04:04:26.168Z",
+        "employee_id": "e4e16c86-70f5-4ae7-8013-b8aff2956cfd"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3c45fbd8-6840-41be-91f5-786477870671",
+        "email": "Raul.Quitzon@gmail.com",
+        "firstName": "Joanne",
+        "lastName": "Simonis",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/88.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6269e19c-ebda-47c5-bc5e-6cadd2867f68",
+        "email": "Jensen_Kautzer90@yahoo.com",
+        "firstName": "Gustave",
+        "lastName": "Frami-Robel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/223.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b4c1a806-eb40-4ed5-9b42-1a1555648b47",
+        "email": "Kyla.Cummings@hotmail.com",
+        "firstName": "Roosevelt",
+        "lastName": "Mertz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/339.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "189c152f-e791-4326-a6ee-409bde29f1fe",
+        "email": "Roberta_Aufderhar30@yahoo.com",
+        "firstName": "Jacquelyn",
+        "lastName": "Parker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1160.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "281de6b1-d56e-49e1-94ca-ba3944aaf5cc",
+        "email": "Glenna.Osinski29@hotmail.com",
+        "firstName": "Aubree",
+        "lastName": "Wisoky-Kulas",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/189.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "ac88e9ed-ed5d-4164-aa70-e86577080f02",
+        "first_name": "James",
+        "last_name": "Anderson",
+        "vacation_status": "Available",
+        "created_at": "2023-08-16T20:39:11.340Z",
+        "updated_at": "2023-08-17T01:25:55.223Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ac157188-de16-4fda-a007-5e8ebdf07654",
+        "first_name": "Emily",
+        "last_name": "Taylor",
+        "vacation_status": "Unavailable",
+        "created_at": "2023-08-16T18:03:14.100Z",
+        "updated_at": "2023-08-17T04:35:45.652Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c817325d-79b0-4179-b09e-2e7396697c35",
+        "first_name": "Daniel",
+        "last_name": "Roberts",
+        "vacation_status": "On Leave",
+        "created_at": "2023-08-16T19:30:57.769Z",
+        "updated_at": "2023-08-16T10:38:46.962Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "03ef5b5d-d65a-4cfd-906e-e0b7c7e84354",
+        "first_name": "Olivia",
+        "last_name": "Clark",
+        "vacation_status": "Pending",
+        "created_at": "2023-08-16T20:37:41.610Z",
+        "updated_at": "2023-08-16T22:55:46.705Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ae9d02f9-6793-46ac-9a10-48ea590a7781",
+        "first_name": "Matthew",
+        "last_name": "Walker",
+        "vacation_status": "Approved",
+        "created_at": "2023-08-16T10:04:10.303Z",
+        "updated_at": "2023-08-16T10:50:43.455Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "25de76f0-7797-4a41-beaa-8457b8e09cbf",
+        "salary": 3274,
+        "created_at": "2023-08-16T13:58:15.803Z",
+        "updated_at": "2023-08-17T05:09:19.100Z",
+        "employee_id": "03ef5b5d-d65a-4cfd-906e-e0b7c7e84354"
+      },
+      {
+        "id": "16547f52-5f7e-4fc0-9f6f-c06119bc2a31",
+        "salary": 62026,
+        "created_at": "2023-08-17T02:09:35.992Z",
+        "updated_at": "2023-08-16T21:59:00.901Z",
+        "employee_id": "ae9d02f9-6793-46ac-9a10-48ea590a7781"
+      },
+      {
+        "id": "efe4dcd6-302c-45ca-bccd-e3467daa55f2",
+        "salary": 80055,
+        "created_at": "2023-08-16T16:21:58.053Z",
+        "updated_at": "2023-08-16T15:30:42.898Z",
+        "employee_id": "ac88e9ed-ed5d-4164-aa70-e86577080f02"
+      },
+      {
+        "id": "7e164317-c778-4b24-b0b1-876ba20386d8",
+        "salary": 60867,
+        "created_at": "2023-08-16T20:40:14.035Z",
+        "updated_at": "2023-08-16T17:57:51.758Z",
+        "employee_id": "c817325d-79b0-4179-b09e-2e7396697c35"
+      },
+      {
+        "id": "e87dca9e-154f-4ced-8362-fd03943c518d",
+        "salary": 6515,
+        "created_at": "2023-08-17T02:14:18.127Z",
+        "updated_at": "2023-08-16T12:20:05.148Z",
+        "employee_id": "ac88e9ed-ed5d-4164-aa70-e86577080f02"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4e810a00-1b06-4e5c-9a30-44c10c7952a0",
+        "email": "Elyssa10@hotmail.com",
+        "firstName": "Anderson",
+        "lastName": "Stiedemann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/355.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cbb921b4-7c9d-48b6-b622-d17839ff6fa5",
+        "email": "Preston45@yahoo.com",
+        "firstName": "Camille",
+        "lastName": "Muller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/312.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "485fb0d4-c581-487a-99c5-5cec172d589f",
+        "email": "Jaqueline_Luettgen34@hotmail.com",
+        "firstName": "Dwight",
+        "lastName": "Heidenreich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64515508",
+        "tenantId": null
+      },
+      {
+        "reference": "c4225a1f-8e14-48fe-a73d-00571f5ddd80",
+        "email": "Vinnie_Jakubowski@gmail.com",
+        "firstName": "Elna",
+        "lastName": "Windler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30233968",
+        "tenantId": null
+      },
+      {
+        "reference": "e27088a6-1289-4edd-87fd-bf34cd6fb150",
+        "email": "Skye_Schneider16@hotmail.com",
+        "firstName": "Enoch",
+        "lastName": "Glover",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83477303",
+        "tenantId": null
+      }
+    ]
+  }
+]
